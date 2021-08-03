@@ -1,0 +1,32 @@
+/*vista desktop*/
+@media only screen and (min-width:1240px){
+	.navbar-expand-lg .navbar-collapse{
+	justify-content: flex-end;
+}
+	.navbar-expand-lg .navbar-nav{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 15px;
+	}
+}
+
+/*vista entre desktop y mobile*/
+@media only screen and (min-width:768px) and (max-width:1239px){
+	
+}
+
+/*vista mobile*/
+@media only screen and (min-width:0px) and (max-width:767px){
+	p, h2{
+		text-align: center;
+	}	
+	dl, ol, ul{
+		text-align: center;
+		list-style: none;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+}

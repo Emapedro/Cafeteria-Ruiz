@@ -1,0 +1,56 @@
+$lista-fontsize: 25px;
+
+@mixin paddG{
+	padding: 25px;
+	display: flex;
+  	flex-direction: row;
+}
+
+.footerBg{
+	background-color: #edd5b4;
+	border-radius: 20px;
+}
+
+.footerGrid {
+	@include paddG;
+	justify-content: space-around;
+	background-color: #edd5b4;
+}
+
+.footerGrid p {
+	letter-spacing: 5px;
+	margin: 30px;
+	background-color: #edd5b4;
+	text-align: left;
+}
+
+.mapaFoo {
+	@include paddG;
+	justify-content: space-around;
+	background-color: #edd5b4;
+	text-align: left;
+}
+
+.listaInfo li{
+	color: lightcoral;
+	margin: 10px;
+	font-size: $lista-fontsize;
+}
+
+.listaInfo{
+	background-color: #edd5b4;
+	@include paddG;
+	justify-content: start;
+}
+
+.copyRight {
+	color: coral;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #edd5b4;
+}
+
+.vacioFooter{
+	background-color: #edd5b4;
+}

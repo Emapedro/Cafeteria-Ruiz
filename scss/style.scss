@@ -1,0 +1,150 @@
+@import "footer";
+@import "parallax";
+@import "responsive";
+@import "header";
+@import "generales";
+
+$borde-imagen: 35px;
+
+@for $i from 1 through 2 {
+	.textoNew-#{$i}{
+		font-size: 15px * $i;
+		color:white;
+		font-style: italic;
+		text-align: center;
+		}
+}
+
+@mixin paddG{
+	padding: 25px;
+	display: flex;
+  flex-direction: row;
+}
+
+.paddingTB{
+	padding: 50px;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.contenedorGrid{
+	display: grid;
+	width: 100%;
+	grid-template-areas: 
+	"area1 area2 area3"
+	"area4 area5 area6"
+	"area7 area8 area9";
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+}
+
+.mainSelection{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contenedorImgPrincipal{
+	margin: 100px auto;
+	display: inline-block;
+	height: 500px;
+}
+
+.textSection {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 90px !important;
+  margin-top: 50px !important; 
+}
+
+.sectionFlexHistoria{
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+	background-color: #FFE5B6;
+	transform: translate(0px, 75px);
+	border-radius: 20px;
+}
+
+.sectionFlexHistoria2{
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+	background-color: #FFE5B6;
+	transform: translate(0px, -100px);
+	border-radius: 20px;
+}
+
+.historiaTitle {
+	text-align: center;
+}
+
+.historiaP {
+	text-align: center;
+	margin: 50px;
+}
+
+.sectionFlexMarqt {
+	display: flex;
+	flex-direction: column;
+	transform: translate(-350px, -50px);
+	background-color: #FFE5B6;
+	border-radius: 20px;
+}
+
+.marqtTitle {
+	text-align: center;
+}
+
+.marqtP {
+	text-align: center;
+	margin: 50px;
+}
+
+.videoAssets {
+	@include paddG;
+	justify-content: flex-start;
+	transform: translate(-300px, 25px);
+}
+
+.sectionFlexCarta {
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+	background-color: #221e1f;
+	transform: translate(0px, 75px);
+	border-radius: 20px;
+}
+
+.cartaTitle {
+	text-align: center;
+}
+
+.cartaP {
+	text-align: center;
+	margin: 50px;
+	color: white;
+	font-size: 25px;
+}
+
+.sectionFlexCarta2{
+	@include paddG;
+	justify-content: flex-start;
+	width: 800px;
+	height: 800px;
+}
+
+.imagenCarta {
+  margin-left: 200px; }
+
+.imagenCarta__titulo--position {
+  text-align: center; }
+
+.imagenCarta__picture--tamanio {
+  width: 400px;
+  border-radius: $borde-imagen; }

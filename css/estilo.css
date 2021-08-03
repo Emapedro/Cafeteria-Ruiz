@@ -1,0 +1,353 @@
+.footerBg {
+  background-color: #edd5b4;
+  border-radius: 20px; }
+
+.footerGrid {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #edd5b4; }
+
+.footerGrid p {
+  letter-spacing: 5px;
+  margin: 30px;
+  background-color: #edd5b4;
+  text-align: left; }
+
+.mapaFoo {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #edd5b4;
+  text-align: left; }
+
+.listaInfo li {
+  color: lightcoral;
+  margin: 10px;
+  font-size: 25px; }
+
+.listaInfo {
+  background-color: #edd5b4;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start; }
+
+.copyRight {
+  color: coral;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #edd5b4; }
+
+.vacioFooter {
+  background-color: #edd5b4; }
+
+.parallaxTacita {
+  background-image: url("../assets/img/tacita.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px; }
+
+.parallax2 {
+  background-image: url("https://i.ibb.co/yhCWpWc/pexels-afta-putta-gunawan-702251.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxMarqt {
+  background-image: url("https://www.market-cafe.co.uk/img/gallery/full/market-cafe-tables.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxMarqt2 {
+  background-image: url("https://www.market-cafe.co.uk/img/gallery/full/inside-market-cafe.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxHistoria {
+  background-image: url("https://cdn.local.mx/wp-content/uploads/2019/02/cafe-la-habana-destacada.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxHistoria2 {
+  background-image: url("https://cdn.local.mx/wp-content/uploads/2019/02/cafe-la-habana-7.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxCarta {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/037/247/non_2x/coffee-house-menu-restaurant-cafe-menu-free-vector.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+.parallaxContact {
+  background-image: url("https://media.powershop.com.au/wp-content/uploads/2019/09/20093644/contact-powershop-stoddart-1024x478.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+/*vista desktop*/
+@media only screen and (min-width: 1240px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .navbar-expand-lg .navbar-nav {
+    font-size: 20px; }
+  h3 {
+    font-size: 15px; } }
+
+/*vista entre desktop y mobile*/
+/*vista mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  p, h2 {
+    text-align: center; }
+  dl, ol, ul {
+    text-align: center;
+    list-style: none; }
+  h3 {
+    font-size: 15px; } }
+
+.colorNav {
+  background-color: #ffecc7; }
+
+.navbar-brand {
+  font-size: 35px; }
+
+.logoPrincipal {
+  color: white;
+  font-size: 20px;
+  display: inline-flex;
+  background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%); }
+
+.logoPrincipal img {
+  margin: 10px; }
+
+.nav {
+  background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%);
+  margin: 0; }
+
+.nav li a {
+  padding: 30px 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center; }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.nav li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 20px;
+  margin: 23px; }
+
+.iconosNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%); }
+
+.iconosNav a img {
+  margin: 20px; }
+
+.navLogos {
+  margin-left: 20px; }
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #EDDAB4;
+  overflow-x: hidden; }
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-size: 50px;
+  font-style: normal;
+  position: absolute;
+  background-color: orange;
+  opacity: .8; }
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-size: 40px;
+  font-style: normal;
+  position: absolute;
+  background-color: orange;
+  opacity: .8; }
+
+h3 {
+  color: darkorange;
+  margin-top: 50px;
+  font-size: 35px; }
+
+p {
+  color: black;
+  font-size: 20px; }
+
+.textoNew-1 {
+  font-size: 15px;
+  color: white;
+  font-style: italic;
+  text-align: center; }
+
+.textoNew-2 {
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  text-align: center; }
+
+.paddingTB {
+  padding: 50px; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.contenedorGrid {
+  display: grid;
+  width: 100%;
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto; }
+
+.mainSelection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.contenedorImgPrincipal {
+  margin: 100px auto;
+  display: inline-block;
+  height: 500px; }
+
+.textSection {
+  text-align: center; }
+
+.mb-2 {
+  margin-bottom: 90px !important;
+  margin-top: 50px !important; }
+
+.sectionFlexHistoria {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: #FFE5B6;
+  transform: translate(0px, 75px);
+  border-radius: 20px; }
+
+.sectionFlexHistoria2 {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: #FFE5B6;
+  transform: translate(0px, -100px);
+  border-radius: 20px; }
+
+.historiaTitle {
+  text-align: center; }
+
+.historiaP {
+  text-align: center;
+  margin: 50px; }
+
+.sectionFlexMarqt {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-350px, -50px);
+  background-color: #FFE5B6;
+  border-radius: 20px; }
+
+.marqtTitle {
+  text-align: center; }
+
+.marqtP {
+  text-align: center;
+  margin: 50px; }
+
+.videoAssets {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  transform: translate(-300px, 25px); }
+
+.sectionFlexCarta {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  background-color: #221e1f;
+  transform: translate(0px, 75px);
+  border-radius: 20px; }
+
+.cartaTitle {
+  text-align: center; }
+
+.cartaP {
+  text-align: center;
+  margin: 50px;
+  color: white;
+  font-size: 25px; }
+
+.sectionFlexCarta2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 800px;
+  height: 800px; }
+
+.imagenCarta {
+  margin-left: 200px; }
+
+.imagenCarta__titulo--position {
+  text-align: center; }
+
+.imagenCarta__picture--tamanio {
+  width: 400px;
+  border-radius: 35px; }

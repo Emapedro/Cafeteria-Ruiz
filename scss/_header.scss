@@ -1,0 +1,58 @@
+.colorNav{
+	background-color: #ffecc7;
+}
+
+.navbar-brand{
+	font-size: 35px;
+}
+
+.logoPrincipal{
+	color: white;
+	font-size: 20px;
+	display: inline-flex;
+	background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%);
+}
+
+.logoPrincipal img{
+	margin: 10px;
+}
+
+.nav{
+	background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%);
+	margin: 0;
+}
+
+.nav li a{
+	padding: 30px 15px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav li{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 20px;
+	margin: 23px;
+}
+
+.iconosNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-image: linear-gradient(180deg, #694742 0, #67413e 10%, #64393b 20%, #613137 30%, #5e2934 40%, #591f32 50%, #541530 60%, #4e0a30 70%, #480130 80%, #410031 90%, #3a0033 100%);
+}
+
+.iconosNav a img{
+	margin: 20px;
+}
+
+.navLogos {
+  margin-left: 20px; 
+}
