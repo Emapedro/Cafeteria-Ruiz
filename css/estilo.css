@@ -252,10 +252,15 @@ p {
   padding-left: 0;
   padding-right: 0; }
 
+.moverimg {
+  margin-left: 0; }
+
 .contenedorGrid {
   display: grid;
   width: 100%;
-  grid-template-areas: "area1 area2 area3" "area4 area5 area6" "area7 area8 area9";
+  grid-template-areas: "area1 area2 area3"
+ "area4 area5 area6"
+ "area7 area8 area9";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto; }
 
