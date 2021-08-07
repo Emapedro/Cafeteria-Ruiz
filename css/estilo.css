@@ -2,49 +2,6 @@
   background-color: #edd5b4;
   border-radius: 20px; }
 
-.footerGrid {
-  padding: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #edd5b4; }
-
-.footerGrid p {
-  letter-spacing: 5px;
-  margin: 30px;
-  background-color: #edd5b4;
-  text-align: left; }
-
-.mapaFoo {
-  padding: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #edd5b4;
-  text-align: left; }
-
-.listaInfo li {
-  color: lightcoral;
-  margin: 10px;
-  font-size: 25px; }
-
-.listaInfo {
-  background-color: #edd5b4;
-  padding: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: start; }
-
-.copyRight {
-  color: coral;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #edd5b4; }
-
-.vacioFooter {
-  background-color: #edd5b4; }
-
 .parallaxTacita {
   /* The image used */
   background-image: url("../assets/img/tacita.jpg");
