@@ -31,8 +31,14 @@ $borde-imagen: 35px;
 }
 
 .moverimg{
-    margin-left:0;
+    margin-top: 50px;
+    background: orange;
 }
+
+.textmod{
+    margin-top:50px;
+}
+
 .contenedorGrid {
     display: grid;
     width: 100%;
@@ -58,6 +64,10 @@ $borde-imagen: 35px;
 
 .textSection {
     text-align: center;
+}
+
+.text-center ul li{
+    list-style:none;
 }
 
 .mb-2 {
