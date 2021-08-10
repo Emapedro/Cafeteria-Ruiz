@@ -59,18 +59,6 @@ $borde-imagen: 35px;
     transform: scale(1.12);
 }
 
-.mainSelection {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.contenedorImgPrincipal {
-    margin: 100px auto;
-    display: inline-block;
-    height: 500px;
-}
-
 .textSection {
     text-align: center;
 }
@@ -109,67 +97,4 @@ $borde-imagen: 35px;
 .historiaP {
     text-align: center;
     margin: 50px;
-}
-
-.sectionFlexMarqt {
-    display: flex;
-    flex-direction: column;
-    transform: translate(-350px, -50px);
-    background-color: #FFE5B6;
-    border-radius: 20px;
-}
-
-.marqtTitle {
-    text-align: center;
-}
-
-.marqtP {
-    text-align: center;
-    margin: 50px;
-}
-
-.videoAssets {
-    @include paddG;
-    justify-content: flex-start;
-    transform: translate(-300px, 25px);
-}
-
-.sectionFlexCarta {
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-    background-color: #221e1f;
-    transform: translate(0px, 75px);
-    border-radius: 20px;
-}
-
-.cartaTitle {
-    text-align: center;
-}
-
-.cartaP {
-    text-align: center;
-    margin: 50px;
-    color: white;
-    font-size: 25px;
-}
-
-.sectionFlexCarta2 {
-    @include paddG;
-    justify-content: flex-start;
-    width: 800px;
-    height: 800px;
-}
-
-.imagenCarta {
-    margin-left: 200px;
-}
-
-.imagenCarta__titulo--position {
-    text-align: center;
-}
-
-.imagenCarta__picture--tamanio {
-    width: 400px;
-    border-radius: $borde-imagen;
 }
