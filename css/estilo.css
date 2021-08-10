@@ -223,6 +223,13 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto; }
 
+.imgcarta {
+  cursor: pointer;
+  transition: all ease-out 0.5s; }
+
+.imgcarta:hover {
+  transform: scale(1.12); }
+
 .mainSelection {
   display: flex;
   flex-direction: row;
