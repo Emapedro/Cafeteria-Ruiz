@@ -10,14 +10,9 @@ body {
 }
 
 h1{
-	text-align: center;
-	margin-top:100px;
-	color: white;
+	color: orange;
 	font-size: 50px;
 	font-style: normal;
-	position: absolute;
-	background-color: orange;
-	opacity: .8;
 }
 
 h2 {
@@ -42,3 +37,6 @@ p {
 	font-size: 20px;
 }
 
+.carousel-item p{
+	color: white;
+}
