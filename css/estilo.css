@@ -102,14 +102,9 @@ h1 {
   font-style: normal; }
 
 h2 {
-  text-align: center;
-  margin-top: 100px;
-  color: white;
+  color: orange;
   font-size: 40px;
-  font-style: normal;
-  position: absolute;
-  background-color: orange;
-  opacity: .8; }
+  font-style: normal; }
 
 h3 {
   color: darkorange;
