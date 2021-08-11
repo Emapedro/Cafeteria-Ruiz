@@ -158,6 +158,9 @@ p {
 .imgcarta:hover {
   transform: scale(1.12); }
 
+.card-body {
+  color: white; }
+
 .textSection {
   text-align: center; }
 
