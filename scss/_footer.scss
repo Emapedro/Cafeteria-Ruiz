@@ -5,3 +5,11 @@ $lista-fontsize: 25px;
 	display: flex;
   	flex-direction: row;
 }
+
+.text-reset{
+  transition: all 500ms ease-out;
+}
+
+.text-reset:hover{
+  transform: scale(1.9);
+}
