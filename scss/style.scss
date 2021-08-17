@@ -59,6 +59,14 @@ $borde-imagen: 35px;
     transform: scale(1.12);
 }
 
+.carousel-caption {
+    max-width: 100%;
+    width:100%;
+    background-color: #ffb81c;
+    left: 0;
+    opacity: 0.9; 
+}
+
 .card-body{
     color: white;
 }
