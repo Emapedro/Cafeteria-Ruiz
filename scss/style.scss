@@ -34,21 +34,6 @@ $borde-imagen: 35px;
     background: orange;
 }
 
-.textmod{
-    margin-top:50px;
-}
-
-.contenedorGrid {
-    display: grid;
-    width: 100%;
-    grid-template-areas:
-        "area1 area2 area3"
-        "area4 area5 area6"
-        "area7 area8 area9";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-}
-
 .imgcarta{
     cursor: pointer;
     transition: all ease-out 0.5s;
@@ -81,31 +66,4 @@ $borde-imagen: 35px;
 .mb-2 {
     margin-bottom: 90px !important;
     margin-top: 50px !important;
-}
-
-.sectionFlexHistoria {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    background-color: #FFE5B6;
-    transform: translate(0px, 75px);
-    border-radius: 20px;
-}
-
-.sectionFlexHistoria2 {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-    background-color: #FFE5B6;
-    transform: translate(0px, -100px);
-    border-radius: 20px;
-}
-
-.historiaTitle {
-    text-align: center;
-}
-
-.historiaP {
-    text-align: center;
-    margin: 50px;
 }
